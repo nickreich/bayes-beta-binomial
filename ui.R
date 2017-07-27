@@ -17,5 +17,7 @@ shinyUI(fluidPage(
         # Show a plot of the generated distribution
         mainPanel(plotOutput("distPlot"))
     ),
-    HTML('<p>Adapted by <a href="http://reichlab.io">Nicholas Reich</a> from <a href="https://r.amherst.edu/apps/nhorton/Shiny-Bayes/">Shiny-Bayes app</a> by Nicholas Horton, under MIT license')
+    HTML('<p>Adapted by <a href="http://reichlab.io">Nicholas Reich</a> from <a href="https://r.amherst.edu/apps/nhorton/Shiny-Bayes/">Shiny-Bayes app</a> by Nicholas Horton'),
+    HTML('<p>Source code available on <a href="https://github.com/nickreich/bayes-beta-binomial">GitHub</a> under an MIT license.')
+    
 ))
